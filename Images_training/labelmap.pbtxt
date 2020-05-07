@@ -1,0 +1,15 @@
+item {
+  id: 1
+  name: 'category-1'
+}
+
+item {
+  id: 2
+  name: 'category-2'
+}
+item {
+  id: 3
+  name: 'category-3'
+}
+
+# No of items should be equal to no of classes 
