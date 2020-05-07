@@ -1,3 +1,9 @@
+# Dataset file structure
+---------------------------
+Images
+     -----test
+     -----train
+     
 # Real_Time_Object_Detection commands
 
 # xml_to_csv.py
@@ -24,3 +30,7 @@ num_steps: 200000
 # export_inference_graph.py
 --------------------------------
 python export_inference_graph.py --input_type image_tensor --pipeline_config_path path_to_downloaded_model --trained_checkpoint_prefix path_to_trained_model --output_directory model_inferencegraph_output
+
+# testing the images
+------------------------------
+Create TEST folder and paste images in the folder and then run the jupyter notebook  
